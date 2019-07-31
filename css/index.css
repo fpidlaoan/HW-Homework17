@@ -1,0 +1,231 @@
+body{
+  background-image: url("../images/Background.jpg");
+  background-color: #F7F7F5;
+  height: 100vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+.container{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+nav{
+  padding-top: 30px;
+  font-size: 11pt;
+  font-weight: 600;
+}
+
+.child1{
+  width: 80px;
+}
+
+.child2{
+  width: 60%;
+  display: flex;
+}
+
+.top{
+  text-align:center;
+  align-items: center;
+  height: 500px;
+  padding-bottom: 70px;
+}
+
+.introme{
+  text-align: left;
+  padding-left: 250px;
+}
+
+.introsig{
+  padding-left:25px;
+  width: 70px;
+}
+
+.Intropic{
+  width: 45%;
+}
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 68pt;
+  padding-bottom: 0;
+  color: #263627;
+
+}
+
+h2{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 18pt;
+}
+
+.graphicpng{
+  text-align: center;
+  justify-content: center;
+}
+.nav-link{
+  color: #263627;
+  padding-right: 40px;
+}
+
+.nav-link:hover{
+  color: #B25B5B;
+  letter-spacing: 1px;
+  transition: .5s ease-in-out;
+}
+
+p{
+  color: #263627;
+  font-size: 18px;
+}
+
+.port{
+  
+  background-color:#B25B5B;
+  color: white;
+  font-weight: 600;
+  border:none;
+  margin-top: 15px;
+}
+
+.port:hover{
+  background-color: #CBCFCA;
+  transition: .5s ease-in;
+}
+
+.card-img-top{
+  text-align: center;
+}
+
+.card-deck{
+ justify-content:center;
+ margin: 20px;
+}
+
+.card{
+  border: none;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.card-body{
+  width: 400px;
+  padding-left: 130px;
+}
+
+.card-text{
+  font-size: 13px;
+}
+
+.mood{
+  justify-content: center;
+  margin: 10px;
+}
+
+.moodb{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+.portsig{
+  height: 50px;
+  margin-bottom: 60px;
+
+}
+
+h5{
+  font-weight: 600;
+}
+
+.moodsig{
+  height: 55px;
+  margin-bottom: 60px;
+}
+
+.container-fluid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1000px;
+}
+
+.row{
+  width: 100%;
+  align-items: center;
+}
+
+.projecttitle{
+  padding-bottom: 50px;
+}
+
+.role1{
+  text-align: center;
+  justify-content: center;
+
+  
+}
+
+.role2{
+  justify-content: center;
+  text-align: left;
+}
+
+h3{
+  font-weight: 600;
+}
+
+
+.OC_HI{
+  padding-bottom: 50px;
+
+}
+
+.HeroImage{
+  width: 90%;
+  padding: 15px;
+}
+
+.aboutmep{
+  width: 500px;
+}
+
+.intromep{
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.icons{
+  width: 45px;
+  }
+
+.LIBox {
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    transition: 1s ease-in;
+  
+  }
+
+.LIBox:hover {
+  transition: .5s ease-in;
+  
+}
+
+.Mepic{
+  width: 50%;
+}
