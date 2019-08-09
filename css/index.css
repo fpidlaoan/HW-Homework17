@@ -44,7 +44,7 @@ nav{
 }
 
 .child2{
-  width: 60%;
+  width: 83%;
   display: flex;
   position: sticky;
 }
@@ -121,7 +121,7 @@ p{
 
 .card-img-top{
   text-align: center;
-  width: 550px;
+  width: 75%;
 }
 
 .card-deck{
@@ -133,8 +133,13 @@ p{
   border: none;
   background-color: transparent;
   justify-content: center;
+  
 }
 
+.card-img{
+  justify-content: center;
+  text-align: center;
+}
 
 .card-body{
   width: 400px;
@@ -257,7 +262,6 @@ footer a:hover{
 }
 
 .social{
-  text-align: right;
   padding: 25px;
 }
 
@@ -296,4 +300,41 @@ strong{
 
 .pres:hover{
  background-color: #263627;
+}
+
+#oldwebsite{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.preanim{
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+#oldwebsite img{
+ padding-top: 5px;
+}
+
+.anim {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 1s ease-out, transform 1s;
+}
+#hoverTest {
+  position: absolute;
+  width: 58%;
+  top: 25px;
+  height: 167px;
+  z-index: -1;
+  position: absolute;
+  /* display: block; */
+  margin: 0 auto;
+  left: 107px;
+}
+
+#hoverTest img{
+  width: 100%;
 }
