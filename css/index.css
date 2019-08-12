@@ -197,15 +197,8 @@ h5{
   padding-bottom: 50px;
 }
 
-.role1{
-  text-align: center;
-  justify-content: center;
-
-  
-}
-
 .role2{
-  justify-content: center;
+  justify-content: left;
   text-align: left;
 }
 
@@ -337,4 +330,8 @@ strong{
 
 #hoverTest img{
   width: 100%;
+}
+
+h4 i{
+  color: #B25B5B;
 }
