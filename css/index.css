@@ -171,6 +171,7 @@ footer{
 
 h5{
   font-weight: 600;
+  padding-top: 25px;
 }
 
 .moodsig{
@@ -184,7 +185,7 @@ h5{
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 1000px;
+  max-width: 1200px;
 }
 
 .row{
@@ -197,6 +198,13 @@ h5{
   padding-bottom: 50px;
 }
 
+.role1{
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  padding-left: 180px;
+}
+
 .role2{
   justify-content: left;
   text-align: left;
@@ -206,15 +214,13 @@ h3{
   font-weight: 600;
 }
 
-
-.OC_HI{
-  padding-bottom: 10px;
-
+.OC_HI {
+  padding-bottom: 45px;
 }
 
-.HeroImage{
-  width: 90%;
-  padding: 15px;
+.OC_HI video {
+  width:80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .aboutmep{
@@ -302,6 +308,11 @@ strong{
   padding: 50px;
 }
 
+#oldwebsite img{
+  width: 80%;
+  padding: 25px;
+}
+
 .preanim{
   transform: translateY(50px);
   opacity: 0;
@@ -322,7 +333,6 @@ strong{
   top: 25px;
   height: 167px;
   z-index: -1;
-  position: absolute;
   /* display: block; */
   margin: 0 auto;
   left: 107px;
@@ -335,3 +345,89 @@ strong{
 h4 i{
   color: #B25B5B;
 }
+
+h6{
+  color: #B25B5B; 
+  font-weight: 600; 
+  font-size: 17pt;
+
+}
+
+.link{
+  width: 120px;
+  padding: 10px;
+}
+
+.HeroContainer{
+  width: 677px;
+  height: 383px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+  top: -619px;
+}
+
+.websiteana{
+  width: 100%;
+}
+
+
+.bulk{
+  max-width: 1000px;
+}
+
+.role3{
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.role3 ol{
+  font-size: 14pt;
+}
+
+.role4{
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.role4 img{
+  width: 90%;
+}
+
+#uinterview{
+  padding-top: 50px;
+}
+
+#uinterview img{
+  width: 90%;
+  margin: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caption{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #3d493d;
+  font-size: 11pt;
+  padding: 12px;
+}
+
+li{
+text-align: left;
+
+}
+
+.personas{
+  
+}
+
+.lipersona{
+  width: 80%;
+
+}
+
+
